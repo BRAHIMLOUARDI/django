@@ -9,7 +9,7 @@ from django.http import Http404
 from django.shortcuts import render
 
 from keras.models import load_model
-from backend.model import logits_to_sentence
+from backend.dataprocessing import logits_to_sentence
 os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 
 
