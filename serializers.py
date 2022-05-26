@@ -17,5 +17,5 @@ class membersSerializer(serializers.ModelSerializer):
 class wordsSerializer(serializers.ModelSerializer):
       class Meta:
           model=Words
-          fields = ['id','English','French','Arabic']
+          fields = fields = '__all__'
       

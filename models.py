@@ -8,11 +8,12 @@ class Members(models.Model):
 
 
 class Words(models.Model):
-  
-  English=models.CharField(max_length=255)
-  French=models.CharField(max_length=255)
-  Arabic=models.CharField(max_length=255)
-
+ English=models.CharField(max_length=255)
+ French=models.CharField(max_length=255)
+ Arabic=models.CharField(max_length=255)
+ ArabicDesc = models.CharField(max_length=1000,default=' ')
+ FrenchDesc = models.CharField(max_length=1000,default=' ')
+ EnglishDesc = models.CharField(max_length=1000,default=' ')
 
 
 

@@ -13,7 +13,7 @@ from backend.dataprocessing import logits_to_sentence
 os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 
 
-model=load_model('./backend/my_model_v3.h5')
+model=load_model('/home/louardi/Desktop/my_model_wholefile_exp.h5')
 
 
 
